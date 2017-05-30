@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="IProblem.cs" />
     <Compile Include="LeetCode\AddTwoNumbers.cs" />
+    <Compile Include="LeetCode\MedianOfTwoSortedArrays.cs" />
     <Compile Include="LeetCode\LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="LinkedListWith\LinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
