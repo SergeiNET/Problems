@@ -13,5 +13,15 @@ namespace ProblemsTest
             MedianOfTwoSortedArrays problem = new MedianOfTwoSortedArrays();
             var res = problem.FindMedianSortedArrays(new int[0], new[] { 1000 });
         }
+
+        [TestMethod]
+        public void StrongPasswordTest()
+        {
+            StrongPasswordChecker problem = new StrongPasswordChecker();
+            var res = problem.Check("aaaaaaaaaaaaaaaaaaaaa");
+        }
+        //aaa123
+
+
     }
 }
