@@ -43,9 +43,20 @@
   <ItemGroup>
     <Compile Include="IProblem.cs" />
     <Compile Include="LeetCode\AddTwoNumbers.cs" />
+    <Compile Include="LeetCode\ArrayPartition1_561.cs" />
+    <Compile Include="LeetCode\DistributeCandies.cs" />
+    <Compile Include="LeetCode\FindComplement.cs" />
+    <Compile Include="LeetCode\FindWordsOfOneRow.cs" />
+    <Compile Include="LeetCode\FizzBuzz.cs" />
+    <Compile Include="LeetCode\HammingDistance.cs" />
+    <Compile Include="LeetCode\JudgeRouteCircle.cs" />
+    <Compile Include="LeetCode\MatrixReshape.cs" />
     <Compile Include="LeetCode\MedianOfTwoSortedArrays.cs" />
     <Compile Include="LeetCode\LongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="LeetCode\MergeTwoBT.cs" />
+    <Compile Include="LeetCode\ReverseWords1.cs" />
     <Compile Include="LeetCode\StrongPasswordChecker.cs" />
+    <Compile Include="LeetCode\TrimBST.cs" />
     <Compile Include="LinkedListWith\LinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
