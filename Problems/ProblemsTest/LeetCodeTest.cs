@@ -18,7 +18,7 @@ namespace ProblemsTest
         public void StrongPasswordTest()
         {
             StrongPasswordChecker problem = new StrongPasswordChecker();
-            var res = problem.Check("aaaaaaaaaaaaaaaaaaaaa");
+            var res = problem.Check("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         }
         //aaa123
 
