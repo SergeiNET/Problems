@@ -62,6 +62,48 @@ namespace ProblemsTest
             ReverseWords1 rev = new ReverseWords1();
             var res = rev.ReverseWords("Let's take LeetCode contest");
         }
+
+        [TestMethod]
+        public void IslandPerimeterProblem()
+        {
+            var isl = new IslandPerimeterProblem();
+            var res = isl.IslandPerimeter(new int[,] { {0,0,0,0 },{ 0,1,0,0 },{ 0,0,0,0 } });
+        }
+
+        [TestMethod]
+        public void MoveZeroes()
+        {
+            int[] nums = new int[] { 0, 0, 1 };
+            int zeroCounter = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 0)
+                {
+                    zeroCounter++;
+                    for (int j = i; j < nums.Length - 1; j++)
+                    {
+                        if (nums[j + 1] == 0)
+                        {
+                            continue;
+                        }
+
+                        nums[j] = nums[j + 1];
+                    }
+                }
+            }
+
+            for (int i = 0; i < zeroCounter; i++)
+            {
+                nums[nums.Length - zeroCounter - 1] = 0;
+            }
+        }
+
+        [TestMethod] 
+        public void BaseBallTest()
+        {
+            var e = FirstUniqueChar.FirstUniqChar("loveleetcode");
+            var res = BaseBall.CalPoints(new string[] { "1", "C", "-62", "-45", "-68" });
+        }
     }
     
 }
